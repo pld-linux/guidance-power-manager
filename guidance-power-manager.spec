@@ -1,4 +1,4 @@
-%define         _state          stable
+%define         state          stable
 %define         qtver           4.4.3
 Summary:	KDE Guidance Power Manager
 Summary(pl.UTF-8):	KDE Guidance Power Manager
