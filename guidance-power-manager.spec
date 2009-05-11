@@ -3,12 +3,12 @@
 Summary:	KDE Guidance Power Manager
 Summary(pl.UTF-8):	KDE Guidance Power Manager
 Name:		guidance-power-manager
-Version:	4.2.0
+Version:	4.2.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{state}/%{version}/src/extragear/%{name}-%{version}.tar.bz2
-# Source0-md5:	1d19f5c45221c59c224321f638e6f8cb
+# Source0-md5:	c4ac87316ae7f261c3e63abbf4899edb
 URL:		http://www.simonzone.com/software/guidance/
 BuildRequires:	QtCore-devel >= %{qtver}
 BuildRequires:	python-PyKDE4 >= %{version}
