@@ -11,13 +11,22 @@ Source0:	ftp://ftp.kde.org/pub/kde/%{state}/%{version}/src/extragear/%{name}-%{v
 # Source0-md5:	3cdbf0a579c2d583750022769401ec6e
 URL:		http://www.simonzone.com/software/guidance/
 BuildRequires:	QtCore-devel >= %{qtver}
+BuildRequires:	automoc4
+BuildRequires:	cmake
+BuildRequires:	gettext-devel
+BuildRequires:	kde4-kdelibs-devel
+BuildRequires:	python
 BuildRequires:	python-PyKDE4 >= %{version}
+BuildRequires:	python-sip-devel
+BuildRequires:	qt4-build
+BuildRequires:	qt4-qmake
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	xorg-lib-libXScrnSaver-devel
 BuildRequires:	xorg-lib-libXxf86vm-devel
 BuildRequires:	xorg-proto-scrnsaverproto-devel
 BuildRequires:	xorg-proto-xf86vidmodeproto-devel
-Requires:	python-PyKDE4
+Requires:	python-PyKDE4 >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
