@@ -13,7 +13,7 @@ URL:		http://www.simonzone.com/software/guidance/
 BuildRequires:	QtCore-devel >= %{qtver}
 BuildRequires:	automoc4
 BuildRequires:	cmake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	kde4-kdelibs-devel
 BuildRequires:	python
 BuildRequires:	python-PyKDE4 >= %{version}
